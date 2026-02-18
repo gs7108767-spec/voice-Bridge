@@ -2,6 +2,11 @@
 Bridging the gap between spoken lectures and digital accessibility.
 
 Voice Bridge is an AI-powered "Smart Mic" system designed for educational environments. It captures a teacher’s live speech, converts it into high-accuracy text using machine learning, and streams it directly to a student dashboard in real-time.
+👥 Project VOICEBRIDGE a project was developed by a team of folowing engineering students as part of our first-semester AI project.
+Official Name             Role                              GitHub Profile
+GURPREET SINGH        Project Lead / AI Integration         @gs7108767-spec 
+G SRISHANTH           Backend & Logic                       @gs1627
+GV NAKSHATRA SAI      Frontend & UI Design                  @nakshatrasaigv
 
 🚀 Features
 Real-Time Transcription: Low-latency speech-to-text conversion.
