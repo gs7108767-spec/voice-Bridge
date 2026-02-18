@@ -1,79 +1,16 @@
-🎙️ Voice Bridge
-Bridging the gap between spoken lectures and digital accessibility.
+# React + Vite
 
-Voice Bridge is an AI-powered "Smart Mic" system designed for educational environments. It captures a teacher’s live speech, converts it into high-accuracy text using machine learning, and streams it directly to a student dashboard in real-time.
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 👥 Project Team
-This project was developed by a team of engineering students as part of our first-semester AI project.
+Currently, two official plugins are available:
 
-| Official Name | Role | GitHub Profile |
-| :--- | :--- | :--- |
-| **GURPREET SINGH** | Project Lead / AI Integration | [@gs7108767-spec](https://github.com/gs7108767-spec) |
-| **G SRISHANTH** | Backend & Logic | [@gs1627](https://github.com/gs1627) |
-| **GV NAKSHATRA SAI** | Frontend & UI Design | [@nakshatrasaigv](https://github.com/nakshatrasaigv) |
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-🚀 Features
-Real-Time Transcription: Low-latency speech-to-text conversion.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Student Dashboard: A clean, web-based interface for students to follow lectures live.
+## Expanding the ESLint configuration
 
-AI-Enhanced Accuracy: Optimized for educational terminology and classroom settings.
-
-Session Archiving: (Optional/Planned) Save transcripts for later review and study.
-
-🛠️ Technical Stack
-Frontend: React.js / HTML5 & Tailwind CSS
-
-Backend: Python (Flask/FastAPI)
-
-AI/ML: OpenAI Whisper / Google Speech-to-Text API
-
-Communication: WebSockets (Socket.io) for real-time data streaming
-
-📂 Project Structure
-Plaintext
-Voice-Bridge/
-├── client/          # Frontend React/Web files
-├── server/          # Python Backend & AI logic
-├── models/          # Speech processing scripts
-├── assets/          # Images and UI components
-└── README.md
-⚙️ Installation & Setup
-Clone the repository
-
-Bash
-git clone https://github.com/your-username/voice-bridge.git
-cd voice-bridge
-Set up the Backend
-
-Bash
-cd server
-pip install -r requirements.txt
-python app.py
-Set up the Frontend
-
-Bash
-cd client
-npm install
-npm start
-📖 How It Works
-The Teacher toggles the "Smart Mic" on the desktop/mobile interface.
-
-Audio data is processed through the Speech-to-Text engine.
-
-The processed text is emitted via WebSockets.
-
-Students connected to the session URL see the text appear instantly on their screens.
-
-🛠 Future Roadmap
-[ ] Integration with multi-language translation.
-
-[ ] Automatic summary generation using LLMs.
-
-[ ] Mobile app version for better portability.
-
-🤝 Contributing
-As this is a project built by a team of three, we welcome feedback and contributions! Feel free to open an issue or submit a pull request.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
