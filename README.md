@@ -1,16 +1,38 @@
-# React + Vite
+# 🎙️ Voice Bridge: AI-Powered Smart Mic for Education
+**Bridging the gap between spoken lectures and digital accessibility.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Voice Bridge is a specialized AI system designed for classroom environments. It captures a teacher's live speech via a "Smart Mic," processes it using machine learning models, and streams high-accuracy text directly to a student dashboard in real-time. This project aims to support students with hearing impairments and improve lecture retention for all learners.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👥 Project Team
+This project was developed by a team of engineering students as part of our first-semester AI project.
 
-## React Compiler
+| Official Name | Role | GitHub Profile |
+| :--- | :--- | :--- |
+| **GURPREET SINGH** | Project Lead / AI & Backend Integration | [@gs7108767-spec](https://github.com/gs7108767-spec) |
+| **G SRISHANTH** | Backend Logic & Speech Processing | [@gs1627](https://github.com/gs1627) |
+| **GV NAKSHATRA SAI** | Frontend Development & UI/UX Design | [@nakshatrasaigv](https://github.com/nakshatrasaigv) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Key Features
+* **Real-Time Transcription**: Converts speech to text with minimal latency.
+* **Student Dashboard**: A clean, responsive web interface built with React.js.
+* **Session Archiving**: Allows students to review transcripts after the lecture ends.
+* **Noise Filtering**: Optimized to handle typical classroom background noise.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technical Stack
+* **Frontend**: React.js, Tailwind CSS, Vite (for fast development).
+* **Backend**: Python (Flask/FastAPI) for processing AI models.
+* **AI Model**: Speech-to-Text integration using advanced ML libraries.
+* **Version Control**: Managed via GitHub for team collaboration.
+
+---
+
+## 📂 Project Structure
+* `/src` - Contains the React components and frontend logic.
+* `/server` - Contains the Python AI and backend scripts.
+* `/public` - Static assets and icons for the dashboard.
